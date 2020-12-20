@@ -39,7 +39,7 @@ app.get('/autorizado', function (req, res) {
 });
 
 app.post('/notificacion', function (req, res) {
-    console.log(req.body)
+    console.log("Notifica +++++"+ req.body)
     res.status(200).end() 
 });
 
