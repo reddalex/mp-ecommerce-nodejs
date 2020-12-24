@@ -81,7 +81,7 @@ app.post('/preference', (req, res) =>{
             email: 'test_user_81131286@testuser.com',
             phone: {
                 area_code: '52',
-                number: '5549737300'
+                number: 5549737300
             },
             address: {
                 street_name: 'Insurgentes Sur',
